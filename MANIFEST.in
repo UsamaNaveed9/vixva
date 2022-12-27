@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vixva *.css
+recursive-include vixva *.csv
+recursive-include vixva *.html
+recursive-include vixva *.ico
+recursive-include vixva *.js
+recursive-include vixva *.json
+recursive-include vixva *.md
+recursive-include vixva *.png
+recursive-include vixva *.py
+recursive-include vixva *.svg
+recursive-include vixva *.txt
+recursive-exclude vixva *.pyc
